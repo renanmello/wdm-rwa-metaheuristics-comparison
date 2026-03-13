@@ -1,3 +1,0 @@
-=== Tempo de Execução da Simulação ===
-Tempo total: 107,61  minutos
-

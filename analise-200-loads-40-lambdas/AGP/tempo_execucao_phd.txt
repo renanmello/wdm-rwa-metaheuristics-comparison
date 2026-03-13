@@ -1,8 +1,0 @@
-Tempo total de execução: 860.40 segundos
-Tempo total de execução: 14.34 minutos
-Tempo do AG: 0.69 segundos
-Simulações por gene: 20
-Genes/requisições: 5
-Loads testados: 200 (de 1 a 200)
-Chamadas por load: 1000
-Total de chamadas simuladas: 20,000,000

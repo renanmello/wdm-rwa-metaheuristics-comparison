@@ -1,9 +1,0 @@
-Tempo total: 1296.26s
-Tempo total: 21.60 minutos
-Tempo do AG: 3.40s
-Início: 2026-01-22 22:09:07
-Fim: 2026-01-22 22:30:43
-Requisições: 5
-Loads testados: 200
-Simulações: 20
-Chamadas por load: 1000

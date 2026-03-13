@@ -1,4 +1,0 @@
-=== TEMPO DE EXECUÇÃO - PSO  ===
-Tempo total: 250.54 segundos
-Tempo em minutos: 4.18
-
