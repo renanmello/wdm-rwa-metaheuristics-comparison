@@ -1,0 +1,17 @@
+=== TEMPO DE EXECUÇÃO ===
+
+TEMPOS:
+  Total: 414.31 segundos
+  PSO: 5.16 segundos
+  Simulação: 409.15 segundos
+  Total minutos: 6.91
+
+PARÂMETROS:
+  Wavelengths: 80
+  Requisições: [(0, 12), (2, 6), (5, 10), (4, 11), (3, 8)]
+  Population: 120
+  Generations: 40
+  Loads: 1-200
+  Calls/load: 1000
+  Rodadas/load: 20
+

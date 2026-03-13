@@ -1,0 +1,10 @@
+# Tempo de Execução - DE COM FITNESS IGUAL AO AGP
+# Número de simulações: 20
+# Número de wavelengths: 80
+# População: 120
+# Gerações: 40
+# Loads simulados: 1-400
+Tempo total (segundos): 896.29
+Tempo médio por simulação (segundos): 44.81
+Tempo em minutos: 14.94
+Tempo em horas: 0.25

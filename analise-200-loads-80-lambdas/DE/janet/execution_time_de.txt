@@ -1,0 +1,5 @@
+
+Tempo total (segundos): 114.05
+Tempo médio por simulação (segundos): 5.70
+Tempo em minutos: 1.90
+Tempo em horas: 0.03
