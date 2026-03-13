@@ -1,0 +1,13 @@
+# Tempo de Execução - DE
+# Número de simulações: 20
+# Número de wavelengths: 40
+# População: 120
+# Gerações: 40
+# Chamadas base: 100
+# Multiplicador: 5
+# Loads simulados: 1-200
+#
+Tempo total (segundos): 105.72
+Tempo médio por simulação (segundos): 5.29
+Tempo em minutos: 1.76
+Tempo em horas: 0.03

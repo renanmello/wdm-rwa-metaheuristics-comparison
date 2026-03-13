@@ -1,0 +1,14 @@
+=== TEMPO DE EXECUÇÃO - YEN 2 ROTAS ALEATÓRIAS ===
+Tempo total: 2814.35 segundos
+  (46.91 minutos)
+Início: Wed Jan 28 20:59:18 2026
+Término: Wed Jan 28 21:46:12 2026
+
+Parâmetros:
+  Rede: NSFNet (14 nós, 21 enlaces)
+  Wavelengths por enlace: 40
+  Rotas por requisição: 2
+  Requisições: [(0, 12), (2, 6), (5, 10), (4, 11), (3, 8)]
+  Rodadas por carga: 20
+  Chamadas por rodada: 1000
+  Cargas testadas: 1 a 200

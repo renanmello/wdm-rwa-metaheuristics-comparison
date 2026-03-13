@@ -1,0 +1,12 @@
+=== TEMPO DE EXECUÇÃO  ===
+
+TEMPOS:
+  Total: 91.98 segundos
+  PSO: 1.07 segundos
+  Simulação: 90.91 segundos
+  Total minutos: 1.53
+
+
+RESULTADO PSO:
+  Solução: [0, 1, 0, 0, 0]
+  Fitness: 0.960000

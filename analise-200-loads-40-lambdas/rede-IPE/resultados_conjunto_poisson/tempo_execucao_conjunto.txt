@@ -1,0 +1,12 @@
+TEMPO DE EXECUÇÃO - MODO CONJUNTO
+============================================================
+Data e hora: 2026-02-10 20:45:55
+Tempo total: 2224.54 segundos
+Tempo total: 37.08 minutos
+Tempo total: 0.62 horas
+Loads simulados: 200
+Simulações por load: 20
+Total simulações: 4000
+Unidades tempo/simulação: 1000
+Duração média chamadas: 10.0
+Wavelengths: 40

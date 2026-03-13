@@ -1,0 +1,3 @@
+# Tempo de Execução - PSO
+Tempo total (minutos): 49.93
+

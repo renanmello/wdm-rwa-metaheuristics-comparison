@@ -1,0 +1,3 @@
+# Tempo de Execução - DE
+Tempo total (minutos): 91.51
+

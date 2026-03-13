@@ -1,0 +1,17 @@
+=== TEMPO DE EXECUÇÃO - PSO GLOBAL ===
+Tempo total: 250.54 segundos
+Tempo em minutos: 4.18
+
+PARÂMETROS:
+  Número de lambdas: 40
+  Requisições: [(0, 12), (2, 6), (5, 10), (4, 11), (3, 8)]
+  Rotas por requisição: 2
+  Population PSO: 120
+  Generations PSO: 40
+  Loads simulados: 1-200
+  Chamadas por load: 1000
+  Simulações por load: 20
+
+RESULTADO PSO:
+  Melhor solução: [0, 1, 1, 0, 0]
+  Fitness: 0.021739

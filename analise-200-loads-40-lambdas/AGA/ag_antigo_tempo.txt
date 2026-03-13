@@ -1,0 +1,5 @@
+Tempo total de execução: 1636.57s (27.28 minutos)
+Requisições: 5
+Loads: 200
+Simulações: 20
+Chamadas/load: 1000

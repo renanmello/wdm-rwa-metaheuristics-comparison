@@ -1,0 +1,21 @@
+=== TEMPO DE EXECUÇÃO - PSO k=2 ===
+
+TEMPOS:
+  Total: 168.05 segundos
+  PSO: 1.09 segundos
+  Simulação: 166.96 segundos
+  Total minutos: 2.80
+
+PARÂMETROS:
+  k (rotas): 2
+  Wavelengths: 40
+  Requisições: [(0, 12), (2, 6), (5, 10), (4, 11), (3, 8)]
+  Population: 120
+  Generations: 40
+  Loads: 1-200
+  Calls/load: 1000
+  Rodadas/load: 20
+
+RESULTADO PSO:
+  Solução: [0, 1, 1, 0, 0]
+  Fitness: 0.640000

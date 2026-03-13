@@ -1,0 +1,8 @@
+=== TEMPO DE EXECUÇÃO - PSO ===
+
+TEMPOS:
+  Total: 166.40 segundos
+  PSO: 1.22 segundos
+  Simulação: 165.18 segundos
+  Total minutos: 2.77
+

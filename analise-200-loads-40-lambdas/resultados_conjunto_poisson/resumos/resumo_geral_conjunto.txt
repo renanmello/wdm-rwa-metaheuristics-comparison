@@ -1,0 +1,88 @@
+RESUMO GERAL DA SIMULAÇÃO - MODO CONJUNTO
+================================================================================
+Data e hora: 2026-01-26 23:25:22
+Tempo total de execução: 1725.30s (28.75 minutos)
+Número de requisições: 5
+Loads simulados: 200 (de 1 a 200)
+Simulações por load: 20
+Unidades de tempo por simulação: 1000
+Duração média das chamadas: 10.0
+Total de simulações realizadas: 4,000
+Parâmetros AG:
+  • População: 120
+  • Gerações: 40
+  • k-paths: 83
+  • Wavelengths: 40
+
+================================================================================
+
+REQUISIÇÃO 1: [0,12]
+----------------------------------------
+Probabilidade média geral: 0.11543799
+Desvio padrão geral: 0.13224092
+Mínimo geral: 0.00000000
+Máximo geral: 0.42163902
+Load   1: 0.00000000
+Load  50: 0.00009940
+Load 100: 0.04292224
+Load 150: 0.22924371
+Load 200: 0.39242422
+
+REQUISIÇÃO 2: [2,6]
+----------------------------------------
+Probabilidade média geral: 0.01531918
+Desvio padrão geral: 0.02940129
+Mínimo geral: 0.00000000
+Máximo geral: 0.14540567
+Load   1: 0.00000000
+Load  50: 0.00000000
+Load 100: 0.00000000
+Load 150: 0.01410737
+Load 200: 0.11280116
+
+REQUISIÇÃO 3: [5,10]
+----------------------------------------
+Probabilidade média geral: 0.26495860
+Desvio padrão geral: 0.23997941
+Mínimo geral: 0.00000000
+Máximo geral: 0.65871470
+Load   1: 0.00000000
+Load  50: 0.00010010
+Load 100: 0.23861910
+Load 150: 0.50887472
+Load 200: 0.63631881
+
+REQUISIÇÃO 4: [4,11]
+----------------------------------------
+Probabilidade média geral: 0.26516702
+Desvio padrão geral: 0.24058711
+Mínimo geral: 0.00000000
+Máximo geral: 0.67457793
+Load   1: 0.00000000
+Load  50: 0.00010084
+Load 100: 0.24137640
+Load 150: 0.50054353
+Load 200: 0.63580327
+
+REQUISIÇÃO 5: [3,8]
+----------------------------------------
+Probabilidade média geral: 0.11528494
+Desvio padrão geral: 0.13211787
+Mínimo geral: 0.00000000
+Máximo geral: 0.41489899
+Load   1: 0.00000000
+Load  50: 0.00000000
+Load 100: 0.04206718
+Load 150: 0.22731504
+Load 200: 0.38452755
+
+
+================================================================================
+TEMPO DE EXECUÇÃO DETALHADO
+----------------------------------------
+Tempo total: 1725.30 segundos
+Tempo total: 28.75 minutos
+Tempo total: 0.48 horas
+Simulações realizadas: 4000
+Unidades de tempo simuladas: 4,000,000
+Taxa de simulação: 0.43 segundos/simulação

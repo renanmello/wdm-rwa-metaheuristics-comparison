@@ -1,0 +1,28 @@
+=== TEMPO DE EXECUÇÃO - PSO (IGUAL AGP) ===
+
+TEMPOS DETALHADOS:
+  Total: 291.88 segundos
+  Pré-computação rotas (k=150): 0.06s
+  Otimização PSO: 1.14s
+  Simulação tráfego: 290.68s
+  Total minutos: 4.86
+  Total horas: 0.08
+
+PARÂMETROS DA SIMULAÇÃO:
+  k (rotas por requisição): 150
+  Número de wavelengths: 40
+  Requisições fixas (5): [(0, 12), (2, 6), (5, 10), (4, 11), (3, 8)]
+  Population PSO: 120
+  Generations PSO: 40
+  Parâmetros PSO: w=0.7, c1=1.5, c2=1.5
+  Loads simulados: 1-200
+  Simulações por load: 20
+  Unidades de tempo por simulação: 1000
+  Duração média chamadas: 10.0
+
+RESULTADO DA OTIMIZAÇÃO PSO:
+  Melhor solução (índices 0-149): [142, 105, 63, 0, 78]
+  Fitness: 0.400000
+
+ROTAS SELECIONADAS DETALHADAS:
+  [4,11]: Índice 0, 3 saltos, rota: [4, 3, 10, 11]
