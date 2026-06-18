@@ -115,3 +115,51 @@ relatorio_final/
 ├── comparison_*.png
 └── metrics_summary_*.csv
 ```
+
+📈 Visualization
+
+The framework generates publication-ready figures:
+
+    Blocking probability curves with 95% confidence intervals
+
+    Comparative charts for all three algorithms
+
+    Per O-D pair analysis to evaluate fairness
+
+    Inflection point detection at 1% blocking probability
+
+📚 Citation
+
+If you use this framework in your research, please cite:
+
+```
+@phdthesis{rwa-wdm-2026,
+  title     = {Controlled Comparative Analysis of Bio-Inspired Algorithms for Dynamic Routing and Wavelength Assignment in WDM Optical Networks},
+  author    = {DIEGO BENTO AIRES TEIXEIRA, RENAN PEREIRA MELLO, ALBERT EINSTEIN COUTINHO DOS SANTOS, JOSIVALDO DE SOUZA ARAÚJO,FABRICIO ROSSY DE LIMA LOBATO AND MARCOS CÉSAR DA ROCHA SERUFFO},
+  school    = {UFPA, Universidade Federal Do Pará},
+  year      = {2026},
+  note      = {PhD Thesis}
+}
+```
+
+📄 License
+
+This project is licensed under the MIT License.
+
+🙏 Acknowledgments
+
+    Network topologies: JANET6, RedCLARA, IPÊ
+
+    Frameworks: Optuna (hyperparameter optimization), pymoo (PSO and DE implementations)
+
+    Statistical methods: Friedman test, Wilcoxon signed-rank test, Cohen's d, Bonferroni correction
+
+📧 Contact
+
+For questions or collaborations, please contact:
+
+    Author: [Renan Mello]
+
+    Email: [mellorenan19@gmail.com]
+
+    Institution: [UFPA]
