@@ -1,0 +1,15 @@
+# RWA-WDM - Python dependencies
+# Python >= 3.10
+#
+# These are MINIMUM versions required by the features used in the scripts.
+# To reproduce the exact environment of the experiments, replace this file with
+# the pinned versions of the machine used for the runs (see the README note):
+#   pip freeze | grep -i -E "^(numpy|pandas|scipy|networkx|matplotlib|pymoo|optuna)=="
+
+numpy>=1.22          # np.random.default_rng (fitness-evaluation traffic)
+pandas>=1.5          # read_csv(on_bad_lines=...), CSV handling
+scipy>=1.9           # Friedman, Wilcoxon, Student's t
+networkx>=2.8        # graphs and Yen's k-shortest simple paths
+matplotlib>=3.6      # "seaborn-v0_8-darkgrid" style used in plots
+pymoo>=0.6.0         # PSO and DE (pymoo.algorithms.soo.nonconvex), IntegerRandomSampling
+optuna>=3.0          # hyperparameter calibration (optimized-bioinspired.py)
