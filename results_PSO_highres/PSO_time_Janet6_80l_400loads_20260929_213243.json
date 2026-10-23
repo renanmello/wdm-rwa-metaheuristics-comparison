@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260929_213243",
+  "algorithm": "PSO",
+  "network": "Janet6",
+  "num_wavelengths": 80,
+  "max_load": 400,
+  "num_executions": 20,
+  "num_requests": 5000,
+  "total_time_seconds": 1376.49,
+  "total_time_minutes": 22.94,
+  "mean_exec_time_seconds": 68.8243,
+  "total_algo_time_seconds": 11.9015,
+  "mean_algo_time_seconds": 0.5951
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260929_221625",
+  "algorithm": "GA",
+  "network": "Janet6",
+  "num_wavelengths": 80,
+  "max_load": 400,
+  "num_executions": 20,
+  "num_requests": 5000,
+  "total_time_seconds": 1301.13,
+  "total_time_minutes": 21.69,
+  "mean_exec_time_seconds": 65.0565,
+  "total_algo_time_seconds": 2.0209,
+  "mean_algo_time_seconds": 0.101
+}

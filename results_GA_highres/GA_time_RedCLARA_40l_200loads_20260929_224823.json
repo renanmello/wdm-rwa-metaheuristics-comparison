@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260929_224823",
+  "algorithm": "GA",
+  "network": "RedCLARA",
+  "num_wavelengths": 40,
+  "max_load": 200,
+  "num_executions": 20,
+  "num_requests": 5000,
+  "total_time_seconds": 609.24,
+  "total_time_minutes": 10.15,
+  "mean_exec_time_seconds": 30.4618,
+  "total_algo_time_seconds": 1.9559,
+  "mean_algo_time_seconds": 0.0978
+}

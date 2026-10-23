@@ -1,0 +1,14 @@
+{
+  "timestamp": "20261001_005640",
+  "algorithm": "PSO",
+  "network": "IPE",
+  "num_wavelengths": 40,
+  "max_load": 200,
+  "num_executions": 20,
+  "num_requests": 5000,
+  "total_time_seconds": 1335.25,
+  "total_time_minutes": 22.25,
+  "mean_exec_time_seconds": 66.7626,
+  "total_algo_time_seconds": 839.5841,
+  "mean_algo_time_seconds": 41.9792
+}

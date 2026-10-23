@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260929_231600",
+  "algorithm": "PSO",
+  "network": "RedCLARA",
+  "num_wavelengths": 80,
+  "max_load": 400,
+  "num_executions": 20,
+  "num_requests": 5000,
+  "total_time_seconds": 1639.75,
+  "total_time_minutes": 27.33,
+  "mean_exec_time_seconds": 81.9876,
+  "total_algo_time_seconds": 11.567,
+  "mean_algo_time_seconds": 0.5783
+}

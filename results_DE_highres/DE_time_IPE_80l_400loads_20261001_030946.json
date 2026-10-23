@@ -1,0 +1,14 @@
+{
+  "timestamp": "20261001_030946",
+  "algorithm": "DE",
+  "network": "IPE",
+  "num_wavelengths": 80,
+  "max_load": 400,
+  "num_executions": 20,
+  "num_requests": 5000,
+  "total_time_seconds": 2515.52,
+  "total_time_minutes": 41.93,
+  "mean_exec_time_seconds": 125.7758,
+  "total_algo_time_seconds": 1210.1828,
+  "mean_algo_time_seconds": 60.5091
+}
