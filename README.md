@@ -143,29 +143,68 @@ To reproduce the exact environment, install the versions listed in `requirements
 
 ## How to run
 
-### 1. Hyperparameter calibration (one-time)
+The workflow has two required steps, in this order: **simulation**, then **post-processing**. Run every command from the repository root.
+
+### Step 1 (optional) - Hyperparameter calibration
+
+The final hyperparameters used in the paper are already set in `sim-high-resolution.py` and listed in [Experimental protocol](#experimental-protocol). Run this step only if you want to recalibrate them.
 
 ```bash
 python optimized-bioinspired.py
 ```
 
-### 2. Main experiments
+### Step 2 - Run the simulations
 
 ```bash
 python sim-high-resolution.py
 ```
 
-Networks, wavelengths, loads and number of executions are defined in the configuration section of the script. Execution times for each configuration are saved in `execution_times.csv`.
+This runs every scenario defined in `main()`: 3 topologies x {40 wavelengths up to 200 Erlangs, 80 wavelengths up to 400 Erlangs}, 20 executions each. For every scenario the three algorithms (PSO, DE and GA) are executed with the same traffic seeds (CRN).
 
-### 3. Statistical report
+The scenarios and the number of executions are configured at the top of `main()`:
+
+```python
+NUM_EXECUTIONS = 20
+experiments = [
+    # (name, graph function, S-D pairs, wavelengths, max load)
+    ('JANET6', get_janet6_graph, JANET_PAIRS, 40, 200),
+    # ... remaining scenarios
+]
+```
+
+Results are written to `results_PSO_highres/`, `results_DE_highres/` and `results_GA_highres/` (see [Output structure](#output-structure)). The full run takes several hours, depending on your hardware.
+
+**Quick test (recommended before the full run):** in `main()`, set `NUM_EXECUTIONS = 2` and keep a single short scenario, for example:
+
+```python
+NUM_EXECUTIONS = 2
+experiments = [
+    ('JANET6', get_janet6_graph, JANET_PAIRS, 40, 20),
+]
+```
+
+Run the script, check that the three `results_*_highres/` folders were created, and restore the original configuration before the real run.
+
+### Step 3 - Statistical post-processing
+
+Run it from the same folder that contains the `results_*_highres/` folders:
 
 ```bash
 python pos_process.py
 ```
 
+It reads the three result folders and writes everything to `relatorio_final/` (statistical reports, comparison plots and summary tables).
+
 To analyze one specific run, set `TIMESTAMP_FILTER` at the top of `pos_process.py` (for example `"20260930"`).
 
-> **Before a new run**, move or delete the previous `results_*_highres/` folders. The post-processing uses the most recent file for each scenario and could otherwise mix results from different runs.
+> **Before a new full run**, move or delete the previous `results_*_highres/` folders. The post-processing uses the most recent file of each scenario and could otherwise mix results from different runs.
+
+### Workflow summary
+
+```text
+sim-high-resolution.py  -->  results_{PSO,DE,GA}_highres/  -->  pos_process.py  -->  relatorio_final/
+     (simulation)             (raw data, stats, solutions)       (statistics)        (reports, plots, tables)
+```
 
 ## Output structure
 
