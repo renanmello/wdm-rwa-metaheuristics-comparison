@@ -190,7 +190,7 @@ Run the script, check that the three `results_*_highres/` folders were created, 
 Run it from the same folder that contains the `results_*_highres/` folders:
 
 ```bash
-python pos_process.py
+python pos-process.py
 ```
 
 It reads the three result folders and writes everything to `relatorio_final/` (statistical reports, comparison plots and summary tables).
